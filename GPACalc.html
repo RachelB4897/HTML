@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+    <head>
+		<!-- Meta Tags -->
+		<meta name="keywords" content="OIS1520, Technical College, MTC, Rachel Bridson, GPA Calculator">
+		<meta name="description" content="Student work from Fall 2019 in OIS1520 at Technical College.  This page is a GPA Calculator based on 4 letter grades.">
+		<!-- Title  -->
+		<title>GPA Calculator with validation</title>
+		<link href="gpastylesheet.css" rel="stylesheet" type="text/css" />
+		<script src="calc.js" language="JavaScript"></script>
+		<!-- JQuery link for some flavour -->
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+	</head>
+	<body>
+		<!-- Outer Banner Container -->
+		<div id="Banner" type="Banner">
+			<!-- Inner Banner Container -->
+			<div id="InnerBanner" type="id">
+			<!-- Student Name -->
+			<h1> Rachel Bridson</h1>
+			<!-- Greeting Container -->
+				<div id="Greeting" type="id">
+					<p>Welcome to my GPA Grade Processor.  In the form below, enter one letter grade into each of the 4 text boxes.  The grades must be a letter grade A-F.  The system will then calculate your GPA based on those 4 letter grades.</p>
+				</div>
+			</div>
+		</div>
+		<!-- Content Container -->
+		<div id="BodyContent" type="content">
+			<div>
+				<!-- Adding a form tag allows the reset button to work, and after submit button clicked, it reloads the form to its original loading form -->
+				<form>
+				<!-- Input text boxes with tasty extra credit converters that turn lowercase to uppercase yo -->
+				<!-- placeholders put text in the box that tells the user what to input, while maxlength forces them to only input one letter -->
+			Letter Grade 1: <input id="Grade1" type="text" maxlength="1" placeholder="Please choose A-F" onkeyup="this.value = this.value.toUpperCase();"/><br/><br/>
+			Letter Grade 2: <input id="Grade2" type="text" maxlength="1" placeholder="Please choose A-F" onkeyup="this.value = this.value.toUpperCase();" /><br/><br/>
+			Letter Grade 3: <input id="Grade3" type="text" maxlength="1" placeholder="Please choose A-F" onkeyup="this.value = this.value.toUpperCase();" /><br/><br/>
+			Letter Grade 4: <input id="Grade4" type="text" maxlength="1" placeholder="Please choose A-F" onkeyup="this.value = this.value.toUpperCase();" /><br/><br/>
+				<br>
+				<br>
+				  <!-- Submit and Reset Buttons -->
+				  <button id="submitButton" onclick="calculate()">Submit</button> 
+				  &nbsp 
+				  <input type="reset" value="Reset"/> 
+				  </form>
+				<br>
+				  <button id="testButton" onclick="testButton()">DO NOT PUSH THIS BUTTON</button>
+			  </div>
+		</div>
+		<br>
+		<!-- Foot Container -->
+		<div id="Footer" type="id">
+			<!-- Footer Logo Link Container -->
+			<div id="FooterLogoLink" type="id">
+				<!-- Logo Image -->
+				<a href="https://www.mtc.edu/"><img src="logo.gif" alt="Marion Technical College Logo"></a>
+			</div>
+			<!-- Footer info -->
+			<h6>Visit the <a href="https://www.mtc.edu/"> Marion Technical College </a> Website to learn more about Interactive Media</h6>
+			<h6>&copy Rachel Bridson, Technical College, 2019</h6>
+		</div>
+		<!-- No script reminder -->
+		<noscript>Sorry, your browser does not support JavaScript!</noscript>
+	</body>
+	<footer>				
+	<!-- How I wanted to do the text boxes, but had to scrap 
+				Letter Grade 1:
+				<select id="Grade1">
+					<option value="notpicked">Pick a grade</option>
+					<option value="A">A</option>
+					<option value="B">B</option>
+					<option value="C">C</option>
+					<option value="D">D</option>
+					<option value="F">F</option>
+				</select>
+				<br>
+				<br>
+				Letter Grade 2:
+				<select id="Grade2">
+					<option value="notpicked">Pick a grade</option>
+					<option value="A">A</option>
+					<option value="B">B</option>
+					<option value="C">C</option>
+					<option value="D">D</option>
+					<option value="F">F</option>
+				</select>
+				<br>
+				<br>
+				Letter Grade 3:
+				<select id="Grade3">
+					<option value="notpicked">Pick a grade</option>
+					<option value="A">A</option>
+					<option value="B">B</option>
+					<option value="C">C</option>
+					<option value="D">D</option>
+					<option value="F">F</option>
+				</select>
+				<br>
+				<br>
+				Letter Grade 4:
+				<select id="Grade4">
+					<option value="notpicked">Pick a grade</option>
+					<option value="A">A</option>
+					<option value="B">B</option>
+					<option value="C">C</option>
+					<option value="D">D</option>
+					<option value="F">F</option>
+				</select>
+				-->
+	</footer>
+</html>
