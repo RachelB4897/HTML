@@ -1,0 +1,62 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">	<html xmlns="http://www.w3.org/1999/xhtml">
+
+<html>
+  <head>
+	<link rel="stylesheet" type="text/css" href="week2hw.css" />
+	  <a href="https://www.mtc.edu/">
+  <img src="logo.gif" alt="Marion Technical College logo" align="left" width="150px">
+  </a>
+  <br>
+  <br>
+    <title>Rachel Bridson OIS1520 Fall 2019</title>
+	<meta name="keywords" content="OIS1520, Marion Technical College, MTC, Rachel Bridson">
+	<meta name="description" content="Student work from Fall 2013 in OIS1520 at Marion Technical College.">
+  </head>
+  <body>
+    <h1 id="title">Rachel Bridson</h1>
+	<br>
+	<br>
+      <h3 id="subtitle" align="center">This website contains examples of assignments completed<br>in the Fall 2019 for OIS1520</h3>
+	       <hr width="50%" size="20px" align="center" color="blue";>
+    <table id="table" style="border-collapse:collapse;">
+		<tr>
+			<th width="150px;">Week 1</th>
+			<td width="20px;">&nbsp;</td>
+			<td><a href="https://mtc.instructure.com/courses/1637747/assignments/10848132?module_item_id=22108980">In-Class Page</a></td>
+		</tr>
+		<tr>
+			<th>Week 2</th>
+			<td>&nbsp;</td>
+			<td><a href="HW1_BridsonRachel.html">Example HTML</a></td>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td><a href="Homework1-2014.dox">Week 1 Terms</a></td>
+		</tr>
+		<tr>
+			<th>Week 3</th>	
+			<td>&nbsp;</td>
+			<td><a href>Example 1</a></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td><a href>Example 2</a></td>
+		</tr>
+		<tr>
+			<th>Week 4</th>
+			<td>&nbsp;</td>
+			<td><a href>Example 1</a></td>
+		</tr>
+		<tr>
+			<td>&nbsp;</td>
+			<td>&nbsp;</td>
+			<td><a href>Example 2</a></td>
+		</tr>
+	</table>
+		<h6>Visit the <a href="https://www.mtc.edu/"> Marion Technical College </a> Website to learn more about Interactive Media</h6>
+		<h6>&copy Rachel Bridson, Marion Technical College, 2019</h6>
+  </body>
+  <footer>
+  </footer>
+</html>
